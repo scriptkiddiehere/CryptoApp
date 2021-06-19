@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.img{
+    height: 30px;
+    width: 30px;
+}
+.title{
+    display: flex;
+}
+.logo{
+    height: 250px;
+    width: 250px;
+}
+.input_search{
+    margin-bottom: 64px;
+    align-items: center;
+    width: 300px;
+}
+.id{
+    display: flex;
+    background: #222531;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    outline: none;
+    height: 100%;
+    width: 50%;
+}
+.id::placeholder{
+    color: #e2e2e2;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: rgb(34, 29, 29);
+    border: 2px solid rgba(0, 0, 0, 0.014);
+    border-radius: 8px;
+}
+th,td{
+    text-align: center;
+    padding: 15px;
+}
+th{
+    color: rgba(64, 228, 228, 0.904);
+    cursor: pointer;
+}
+tr{
+    text-transform: uppercase;
+}
+tr:nth-child(even){
+    background-color: rgba(169, 169, 169, 0.205);
+}
+tr:hover{
+    background: #222531;
+}
+th{
+    background-color: rgba(0, 0, 0, 0.582);
+}
+.crname{
+    color: rgb(247, 224, 20);
+}
+.negative{
+    color: rgb(255, 85, 85);
+}
+.positive{
+    color: rgb(30, 255, 0);
+}
+.coin{
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+}
+.coinImage{
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+.head{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(245, 240, 210);
+}
+.coinContainer{
+    display: none;
+}
